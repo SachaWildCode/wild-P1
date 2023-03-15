@@ -1,14 +1,42 @@
 :root {
     --main-color: XX;
     --secondary-color: XX;
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+nav {
+    background-color: lightcyan;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.menu {
-    background-color: aqua;
-    display: inline;
+h1{
+    position: relative;
+    top: 1vh;
+    padding-left: 20x;
+    margin-left: 20px;
+    padding-top: 20px;
+    text-decoration : none;
+    font-size: 30px;
+    color: black;
 }
+h1 a {
+text-decoration: none;
+}
+h1 a:hover {
+    color: red;
+}
+.logo{
+    
+    height:  100px;
+    
 
-a {
-    display: inline;
-    text-decoration: none;
+    
+    
 }
