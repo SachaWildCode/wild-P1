@@ -1,14 +1,31 @@
 :root {
     --main-color: XX;
-    --secondary-color: XX;
+    --secondary-color: #DDE5B6;
 }
 
 .menu {
     background-color: aqua;
     display: inline;
+
+}
+
+img {
+    width: 100px;
+    height: 50px;
 }
 
 a {
     display: inline;
     text-decoration: none;
+    color: black
+}
+
+footer {
+    background-color: var(--secondary-color);
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: 98%;
+    justify-content: space-between;
+    padding: 1vh;
 }
