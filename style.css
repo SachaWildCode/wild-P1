@@ -45,6 +45,11 @@ footer a:hover {
     position: relative;
 }
 
+.copyright {
+    display: flex;
+    font-size: 10px;
+}
+
 .h1-choices {
     text-align: center;
     font-size: 13px;
@@ -59,8 +64,6 @@ footer a:hover {
     border-style: double;
     border-color: black;
     background-color: var(--main-color);
-
-
 }
 
 .box1 {
@@ -152,9 +155,4 @@ footer a:hover {
     width: 150px;
     height: 150px;
     border-style: double;
-}
-
-.copyright {
-    display: flex;
-    font-size: 10px;
 }
