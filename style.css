@@ -1,6 +1,6 @@
 :root {
-    --main-color: XX;
-    --secondary-color: #DDE5B6;
+    --main-color: #E9E6DD;
+    --secondary-color: XX;
 }
 
 * {
@@ -21,10 +21,13 @@ a {
 }
 
 footer {
-    background-color: var(--secondary-color);
-    position: absolute;
+    background-color: var(--main-color);
+    position: end;
+    display: flex;
+    justify-content: space-around;
     bottom: 0;
     width: 100%;
+    box-shadow: 5px -10px 5px -10px black;
 }
 
 footer a:hover {
@@ -33,12 +36,125 @@ footer a:hover {
 
 .social {
     position: relative;
-    text-align: center;
     display: flexbox;
+    flex-direction: column;
+    text-align: center;
 }
 
 .socialtext {
     position: relative;
-    display: flexbox;
-    flex-direction: column;
+}
+
+.h1-choices {
+    text-align: center;
+    font-size: 13px;
+    font-family: Gabriola;
+    padding: 3vh;
+}
+
+.container-box {
+    display: flex;
+    padding: 6vh;
+    justify-content: space-around;
+    border-style: double;
+    border-color: black;
+    background-color: var(--main-color);
+
+
+}
+
+.box1 {
+    position: relative;
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-style: double;
+}
+
+.box2 {
+    position: relative;
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-style: double;
+}
+
+.box3 {
+    position: relative;
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-style: double;
+}
+
+.container-box2 {
+    display: flex;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    padding: 6vh;
+    justify-content: space-around;
+    border-style: double;
+    border-color: black;
+    background-color: var(--main-color);
+}
+
+.box4 {
+    position: relative;
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-style: double;
+}
+
+.box5 {
+    position: relative;
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-style: double;
+}
+
+.box6 {
+    position: relative;
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-style: double;
+}
+
+.box7 {
+    position: relative;
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-style: double;
+}
+
+.box8 {
+    position: relative;
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-style: double;
+}
+
+.box9 {
+    position: relative;
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-style: double;
+}
+
+.box10 {
+    position: relative;
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-style: double;
+}
+
+.copyright {
+    display: flex;
+    font-size: 10px;
 }
