@@ -6,22 +6,26 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
-nav {
-    background-color: lightcyan;
-    height: 100px;
+nav{
+    background-color:#e9e6dd;
+    border-bottom: 1px solid lightslategray ;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px black;
+    height: 120px;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-h1{
+nav h1{
     position: relative;
     top: 1vh;
     padding-left: 20x;
     margin-left: 20px;
-    padding-top: 20px;
+    padding-top: 25px;
     text-decoration : none;
     font-size: 30px;
     color: black;
@@ -29,14 +33,119 @@ h1{
 h1 a {
 text-decoration: none;
 }
-h1 a:hover {
-    color: red;
+
+
+h1 a:visited {
+    color: black;
 }
 .logo{
     
     height:  100px;
+     
+}
+h2{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+
+}
+.contact{
+    
+    display: flex;
+    flex-direction: column;
+    
+    margin: 50px 100px 0px 100px;
+    
+    
     
 
+}
+input {
+    background-color: #e9e6dd;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    width: 30%;
+    box-shadow: 0 5px 5px -3px #b1b1b1 ;
     
     
 }
+textarea {
+    background-color: #e9e6dd;
+    display: flex;
+    flex-direction: column;
+    resize: none;
+    border: none;
+    border-radius: 5px;
+    height: 90px;
+    width: 30%;
+    box-shadow: 0 5px 5px -3px #b1b1b1;
+    
+    
+}
+
+button {
+    background-color: #e9e6dd;
+    height: 30px;
+    margin-top: 20px;
+    padding: 10px;
+    box-shadow: 0 5px 5px -3px black;
+    border: none;
+    width: 5%;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 5px 5px -3px #b1b1b1;
+    font-weight: bold;
+    margin-left: 150px;
+
+    
+}
+/*
+label {
+    margin-left: 100px;
+}
+
+input {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    border-radius: 5px;
+    border: 1px solid #e9e6dd;
+    background-color: #e9e6dd;
+    height: 30px;
+    width: 20%;
+
+
+    
+}
+
+textarea {
+    background-color:#e9e6dd;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    margin-left: 100px;
+    border: none;
+    width: 20%;
+    resize: none;
+
+}
+button {
+
+    background-color: #e9e6dd;
+    border-radius : 5px;
+    height: 30px;
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 20px;
+    border: none;
+}
+*/
