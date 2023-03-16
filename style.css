@@ -68,6 +68,7 @@ button:active {
   text-align: center;
   width: 100%;
   word-wrap: break-word;
+  margin-bottom: 2vh;
 }
 .img-reco {
   border-radius: 0.5em;
