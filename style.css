@@ -16,7 +16,7 @@ body {
 }
 
 .buttons-container {
-  margin: 10vh 10vh 20vh 10vh;
+  margin: 10vh 10vw 10vh 10vw;
   height: 7vh;
   flex-wrap: nowrap;
   width: 70vw;
@@ -30,8 +30,9 @@ body {
   background-color: white;
   border: 2px solid var(--main-color);
   min-width: 25em;
+  min-height: 2.5em;
 }
-button {
+.buttons-container button {
   text-transform: uppercase;
   height: 100%;
   width: 100%;
@@ -63,7 +64,7 @@ button:active {
   flex-direction: column;
   min-width: 300px;
 }
-h2 {
+.recommandations-container h2 {
   text-align: center;
   width: 100%;
   word-wrap: break-word;
