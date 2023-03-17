@@ -107,6 +107,7 @@ button:active {
   border-radius: 50%;
   transform: translateY(-50%);
   transition: transform 0.1s linear;
+  z-index: 1;
 }
 .wrapper i:active {
   transform: translateY(-50%) scale(0.9);
