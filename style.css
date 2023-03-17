@@ -17,6 +17,7 @@ body {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
+  max-height: 100vh;
   background-color: var(--first-color);
 }
 
@@ -93,7 +94,7 @@ button:active {
 
 .wrapper {
   display: flex;
-  max-width: 1200px;
+  max-width: 80vw;
   position: relative;
 }
 .wrapper i {
@@ -165,39 +166,7 @@ button:active {
   }
 }
 
-nav {
-  background-color: #e9e6dd;
-  border-bottom: 1px solid lightslategray;
-  border-radius: 5px;
-  box-shadow: 0px 0px 10px 0px black;
-  height: 120px;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-nav h1 {
-  position: relative;
-  top: 1vh;
-  padding-left: 20x;
-  margin-left: 20px;
-  padding-top: 25px;
-  text-decoration: none;
-  font-size: 30px;
-  color: black;
-}
-h1 a {
-  text-decoration: none;
-}
-
-h1 a:visited {
-  color: black;
-}
-.logo {
-  height: 100px;
-}
-h2 {
+.contactitle {
   margin-left: 150px;
   margin-top: 50px;
 }
@@ -234,7 +203,7 @@ textarea {
   box-shadow: 0 5px 5px -3px #b1b1b1;
 }
 
-button {
+.submit {
   background-color: #e9e6dd;
   height: 30px;
   margin-top: 20px;
@@ -247,4 +216,27 @@ button {
   box-shadow: 0 5px 5px -3px #b1b1b1;
   font-weight: bold;
   margin-left: 150px;
+}
+nav {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  width: 100vw;
+  height: 125px;
+  font-size: 2.5em;
+  font-weight: 1000;
+  justify-content: space-between;
+  background-color: var(--third-color);
+  color: var(--first-color);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.logo {
+  background-image: "logosansfond.png";
+  width: 150px;
+  height: 100%;
+  padding-bottom: 15px;
+}
+nav span {
+  padding-right: 25%;
 }
