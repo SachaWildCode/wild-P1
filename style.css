@@ -16,7 +16,7 @@ a {
 
 footer {
     background-color: var(--main-color);
-    position: end;
+    bottom: 0;
     display: flex;
     justify-content: space-around;
     bottom: 0;
