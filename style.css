@@ -46,7 +46,6 @@ body {
   font-size: 1em;
   background-color: var(--first-color);
   border: none;
-  min-height: 2.8em;
 }
 
 .validate {
@@ -84,9 +83,12 @@ button:active {
   color: var(--fourth-color);
 }
 .separator {
-  min-width: 1px;
+  width: 4px;
+  margin: 1px;
   background-color: var(--third-color);
   height: 60%;
+  color: var(--third-color);
+  border: none;
 }
 
 .wrapper {
