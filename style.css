@@ -1,6 +1,6 @@
 :root {
     --main-color: #E9E6DD;
-    --secondary-color: XX;
+    --secondary-color: #315070;
 }
 
 * {
@@ -11,17 +11,18 @@
 a {
     display: inline;
     text-decoration: none;
-    color: black
+    color: white;
 }
 
+
 footer {
-    background-color: var(--main-color);
+    background-color: var(--secondary-color);
     bottom: 0;
     display: flex;
     justify-content: space-around;
     bottom: 0;
     width: 100%;
-    box-shadow: 5px -10px 5px -10px black;
+    box-shadow: 3px 3px 38px 3px var(--secondary-color);
 }
 
 
@@ -31,9 +32,7 @@ footer a:hover {
 
 .social {
     position: relative;
-    display: flexbox;
-    flex-direction: column;
-    text-align: center;
+    top: 100%;
 }
 
 .socialtext {
@@ -45,12 +44,11 @@ footer a:hover {
     font-size: 10px;
     position: absolute;
     left: 0;
+    color: white;
 
 }
 
 .h1-choices {
-    text-align: center;
-    font-size: 13px;
     font-family: Gabriola;
     padding: 3vh;
 }
@@ -64,7 +62,7 @@ footer a:hover {
     background-color: var(--main-color);
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 3px 3px 38px 3px #000000;
+    box-shadow: 3px 3px 38px 3px var(--secondary-color);
 }
 
 .box1 {
@@ -105,7 +103,7 @@ footer a:hover {
     background-color: var(--main-color);
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 3px 3px 38px 3px #000000;
+    box-shadow: 3px 3px 38px 3px var(--secondary-color);
 }
 
 .box4 {
@@ -261,4 +259,86 @@ footer a:hover {
     transform: scale(1.5);
     box-shadow: 0px 5px 21px 5px #000000;
 
+}
+
+
+div .h1-choices {
+    width: auto;
+    text-align: center;
+    font-size: 29px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+
+div .anim1:last-of-type {
+    animation: reveal 7s;
+}
+
+div .anim2:last-of-type {
+    margin-left: 0px;
+    animation: slidein 7s;
+}
+
+@keyframes showup {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes slidein {
+    0% {
+        margin-left: -300px;
+    }
+
+    20% {
+        margin-left: -auto;
+    }
+
+    35% {
+        margin-left: 0px;
+    }
+
+    100% {
+        margin-left: 0px;
+    }
+}
+
+@keyframes reveal {
+    0% {
+        opacity: 0;
+        width: 0px;
+    }
+
+    20% {
+        opacity: 1;
+        width: 0px;
+    }
+
+    30% {
+        width: 355px;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        width: 355px;
+    }
 }
