@@ -24,6 +24,7 @@ footer {
     box-shadow: 5px -10px 5px -10px black;
 }
 
+
 footer a:hover {
     color: red;
 }
@@ -63,6 +64,7 @@ footer a:hover {
     background-color: var(--main-color);
     border-radius: 10px;
     overflow: hidden;
+    box-shadow: 3px 3px 38px 3px #000000;
 }
 
 .box1 {
@@ -103,6 +105,7 @@ footer a:hover {
     background-color: var(--main-color);
     border-radius: 10px;
     overflow: hidden;
+    box-shadow: 3px 3px 38px 3px #000000;
 }
 
 .box4 {
@@ -166,4 +169,96 @@ footer a:hover {
     height: 150px;
     border-style: double;
     background-color: black;
+}
+
+.box1 {
+    transition: transform .5s ease;
+}
+
+.box1:hover {
+    transform: scale(1.5);
+    box-shadow: 0px 5px 21px 5px #000000;
+}
+
+.box2 {
+    transition: transform .5s ease;
+}
+
+.box2:hover {
+    transform: scale(1.5);
+    box-shadow: 0px 5px 21px 5px #000000;
+}
+
+.box3 {
+    transition: transform .5s ease;
+}
+
+.box3:hover {
+    transform: scale(1.5);
+    box-shadow: 0px 5px 21px 5px #000000;
+}
+
+.box4 {
+    transition: transform .5s ease;
+}
+
+.box4:hover {
+    transform: scale(1.5);
+    box-shadow: 0px 5px 21px 5px #000000;
+}
+
+.box5 {
+    transition: transform .5s ease;
+}
+
+.box5:hover {
+    transform: scale(1.5);
+    box-shadow: 0px 5px 21px 5px #000000;
+}
+
+.box6 {
+    transition: transform .5s ease;
+}
+
+.box6:hover {
+    transform: scale(1.5);
+    box-shadow: 0px 5px 21px 5px #000000;
+}
+
+.box7 {
+    transition: transform .5s ease;
+}
+
+.box7:hover {
+    transform: scale(1.5);
+    box-shadow: 0px 5px 21px 5px #000000;
+}
+
+.box8 {
+    transition: transform .5s ease;
+}
+
+.box8:hover {
+    transform: scale(1.5);
+    box-shadow: 0px 5px 21px 5px #000000;
+}
+
+.box9 {
+    transition: transform .5s ease;
+}
+
+.box9:hover {
+    transform: scale(1.5);
+    box-shadow: 0px 5px 21px 5px #000000;
+}
+
+.box10 {
+    transition: transform .5s ease;
+
+}
+
+.box10:hover {
+    transform: scale(1.5);
+    box-shadow: 0px 5px 21px 5px #000000;
+
 }
