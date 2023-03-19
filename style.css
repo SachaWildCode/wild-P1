@@ -79,8 +79,6 @@ button:active {
   word-wrap: break-word;
   font-size: calc(1rem + 0.6vw);
   color: var(--fourth-color);
-  -webkit-text-size-adjust: auto;
-  text-size-adjust: auto;
 }
 .separator {
   width: 4px;

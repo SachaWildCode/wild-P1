@@ -30,7 +30,7 @@ function loadimages() {
       image.setAttribute("draggable", false);
       image.alt = "img";
       if (jsondata[i].thumbnail.includes("streetviewpixels")) {
-        image.src = "resources/notavailable.jpg";
+        image.src = "resources/notavailable.png";
       } else {
         image.src = jsondata[i].thumbnail;
       }
