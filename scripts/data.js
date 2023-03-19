@@ -26,20 +26,21 @@ let firstImage = null;
 
 function loadimages() {
   for (let i = 0; i < jsondata.length; i++) {
-    const image = document.createElement("img");
-    image.setAttribute("draggable", false);
-    image.alt = "img";
-    if (jsondata[i].thumbnail.includes("streetviewpixels")) {
-      image.src = "resources/notavailable.jpg";
-    } else {
-      image.src = jsondata[i].thumbnail;
+    if (jsondata[i].rating >= 4.6) {
+      console.log(jsondata[i].rating);
+      const image = document.createElement("img");
+      image.setAttribute("draggable", false);
+      image.alt = "img";
+      if (jsondata[i].thumbnail.includes("streetviewpixels")) {
+        image.src = "resources/notavailable.jpg";
+      } else {
+        image.src = jsondata[i].thumbnail;
+      }
+      document.querySelector(".carousel").appendChild(image);
     }
-    document.querySelector(".carousel").appendChild(image);
-    firstImage = carousel.querySelectorAll("img")[0];
   }
 }
 
 window.onload = () => {
   loadimages();
-  console.log(firstImage);
 };
