@@ -11,10 +11,9 @@ const json = fetch(url)
     return json;
 });
 */
-const url = "http://127.0.0.1:3000/resources/restaurants.json";
 
 let jsondata;
-fetch(url)
+fetch("resources/restaurants.json")
   .then(function (u) {
     return u.json();
   })
@@ -27,7 +26,6 @@ let firstImage = null;
 function loadimages() {
   for (let i = 0; i < jsondata.length; i++) {
     if (jsondata[i].rating >= 4.6) {
-      console.log(jsondata[i].rating);
       const image = document.createElement("img");
       image.setAttribute("draggable", false);
       image.alt = "img";
