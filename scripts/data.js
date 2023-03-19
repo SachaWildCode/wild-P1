@@ -11,7 +11,7 @@ const json = fetch(url)
     return json;
 });
 */
-const url = "http://127.0.0.1:3000/restaurants.json";
+const url = "http://127.0.0.1:3000/resources/restaurants.json";
 
 let jsondata;
 fetch(url)
