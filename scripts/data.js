@@ -22,14 +22,24 @@ fetch(url)
     jsondata = json;
   });
 
-window.onload = () => {
+let firstImage = null;
+
+function loadimages() {
   for (let i = 0; i < jsondata.length; i++) {
-    const e = document.createElement("img");
+    const image = document.createElement("img");
+    image.setAttribute("draggable", false);
+    image.alt = "img";
     if (jsondata[i].thumbnail.includes("streetviewpixels")) {
-      e.src = "resources/notavailable.jpg";
+      image.src = "resources/notavailable.jpg";
     } else {
-      e.src = jsondata[i].thumbnail;
+      image.src = jsondata[i].thumbnail;
     }
-    document.querySelector(".carousel").appendChild(e);
+    document.querySelector(".carousel").appendChild(image);
+    firstImage = carousel.querySelectorAll("img")[0];
   }
+}
+
+window.onload = () => {
+  loadimages();
+  console.log(firstImage);
 };
