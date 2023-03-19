@@ -20,7 +20,7 @@ body {
 }
 
 .buttons-container {
-  margin: 10vh 10vw 10vh 10vw;
+  margin-top: 7em;
   height: 2.5rem;
   flex-wrap: nowrap;
   width: 70vw;
@@ -70,20 +70,21 @@ button:active {
   min-height: 60px;
   display: flex;
   flex-direction: column;
-  margin-bottom: 4vh;
 }
 .recommandations-container h2 {
+  margin-top: 3em;
+  margin-bottom: 1em;
   text-align: center;
   width: 100%;
   word-wrap: break-word;
-  font-size: calc(1rem + 1vw);
+  font-size: calc(1rem + 0.6vw);
   color: var(--fourth-color);
   -webkit-text-size-adjust: auto;
   text-size-adjust: auto;
 }
 .separator {
   width: 4px;
-  margin: 1px;
+  margin: 0.5em;
   background-color: var(--third-color);
   height: 60%;
   color: var(--third-color);
@@ -215,11 +216,13 @@ textarea {
   font-weight: bold;
   margin-left: 150px;
 }
+
 nav {
+  height: 80px;
+  width: 100vw;
   align-items: center;
   display: flex;
   flex-flow: row nowrap;
-  width: 100vw;
   font-weight: bolder;
   justify-content: space-between;
   background-color: var(--third-color);
@@ -229,11 +232,12 @@ nav {
 }
 .logo {
   background-image: "logosansfond.png";
-  width: 200px;
+  width: 100px;
   height: auto;
   padding-bottom: 15px;
+  height: 80px;
 }
 nav span {
-  font-size: calc(1rem + 2vw);
+  font-size: calc(1rem + 1vw);
   margin: 0px auto;
 }
