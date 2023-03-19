@@ -10,9 +10,7 @@
   padding: 0;
   margin: 0;
   font-family: "Source Sans Pro", sans-serif;
-  box-sizing: border-box;
 }
-
 body {
   display: flex;
   flex-flow: column nowrap;
@@ -24,7 +22,7 @@ body {
 
 .buttons-container {
   margin: 10vh 10vw 10vh 10vw;
-  height: 7vh;
+  height: 2.5rem;
   flex-wrap: nowrap;
   width: 70vw;
   align-self: center;
@@ -36,8 +34,6 @@ body {
   align-items: center;
   background-color: var(--first-color);
   border: 2px solid var(--third-color);
-  min-width: 25em;
-  min-height: 3em;
 }
 .buttons-container button {
   text-transform: uppercase;
@@ -45,7 +41,7 @@ body {
   width: 100%;
   color: var(--fourth-color);
   font-weight: 800;
-  font-size: 1em;
+  font-size: calc(0.5rem + 0.8vw);
   background-color: var(--first-color);
   border: none;
 }
@@ -70,19 +66,21 @@ button:active {
   background-color: var(--validate-color);
 }
 .recommandations-container {
-  width: 30%;
+  width: 40%;
   height: auto;
+  min-height: 60px;
   display: flex;
   flex-direction: column;
-  min-width: 300px;
   margin-bottom: 4vh;
 }
 .recommandations-container h2 {
   text-align: center;
   width: 100%;
   word-wrap: break-word;
-  font-size: 2em;
+  font-size: calc(1rem + 1vw);
   color: var(--fourth-color);
+  -webkit-text-size-adjust: auto;
+  text-size-adjust: auto;
 }
 .separator {
   width: 4px;
@@ -95,7 +93,7 @@ button:active {
 
 .wrapper {
   display: flex;
-  max-width: 80vw;
+  max-width: 70vw;
   position: relative;
 }
 .wrapper i {
@@ -219,13 +217,11 @@ textarea {
   margin-left: 150px;
 }
 nav {
+  align-items: center;
   display: flex;
   flex-flow: row nowrap;
-  align-items: center;
   width: 100vw;
-  height: 125px;
-  font-size: 2.5em;
-  font-weight: 1000;
+  font-weight: bolder;
   justify-content: space-between;
   background-color: var(--third-color);
   color: var(--first-color);
@@ -234,10 +230,11 @@ nav {
 }
 .logo {
   background-image: "logosansfond.png";
-  width: 150px;
-  height: 100%;
+  width: 200px;
+  height: auto;
   padding-bottom: 15px;
 }
 nav span {
-  padding-right: 25%;
+  font-size: calc(1rem + 2vw);
+  margin: 0px auto;
 }
