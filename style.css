@@ -93,6 +93,7 @@ button:active {
   display: flex;
   max-width: 70vw;
   position: relative;
+  margin-bottom: 7em;
 }
 .wrapper i {
   top: 50%;
@@ -239,15 +240,14 @@ nav span {
   font-size: calc(1rem + 1vw);
   margin: 0px auto;
 }
-
 footer {
-  background-color: var(--main-color);
-  position: end;
+  margin-bottom: -21px;
+  position: absolute;
+  background-color: var(--third-color);
   display: flex;
   justify-content: space-around;
   bottom: 0;
   width: 100%;
-  box-shadow: 5px -10px 5px -10px black;
 }
 
 footer a:hover {
@@ -256,7 +256,7 @@ footer a:hover {
 
 .social {
   position: relative;
-  display: flexbox;
+  display: flex;
   flex-direction: column;
   text-align: center;
 }
