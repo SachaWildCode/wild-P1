@@ -239,3 +239,156 @@ nav span {
   font-size: calc(1rem + 1vw);
   margin: 0px auto;
 }
+
+footer {
+  background-color: var(--main-color);
+  position: end;
+  display: flex;
+  justify-content: space-around;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 5px -10px 5px -10px black;
+}
+
+footer a:hover {
+  color: red;
+}
+
+.social {
+  position: relative;
+  display: flexbox;
+  flex-direction: column;
+  text-align: center;
+}
+
+.socialtext {
+  position: relative;
+}
+
+.copyright {
+  display: flex;
+  font-size: 10px;
+  position: absolute;
+  left: 0;
+}
+
+.h1-choices {
+  text-align: center;
+  font-size: 13px;
+  font-family: Gabriola;
+  padding: 3vh;
+}
+
+.container-box {
+  display: flex;
+  padding: 6vh;
+  justify-content: space-around;
+  border-style: double;
+  border-color: black;
+  background-color: var(--main-color);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.box1 {
+  position: relative;
+  display: flex;
+  width: 150px;
+  height: 150px;
+  border-style: double;
+  background-color: black;
+}
+
+.box2 {
+  position: relative;
+  display: flex;
+  width: 150px;
+  height: 150px;
+  border-style: double;
+  background-color: black;
+}
+
+.box3 {
+  position: relative;
+  display: flex;
+  width: 150px;
+  height: 150px;
+  border-style: double;
+  background-color: black;
+}
+
+.container-box2 {
+  display: flex;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  padding: 6vh;
+  justify-content: space-around;
+  border-style: double;
+  border-color: black;
+  background-color: var(--main-color);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.box4 {
+  position: relative;
+  display: flex;
+  width: 150px;
+  height: 150px;
+  border-style: double;
+  background-color: black;
+}
+
+.box5 {
+  position: relative;
+  display: flex;
+  width: 150px;
+  height: 150px;
+  border-style: double;
+  background-color: black;
+}
+
+.box6 {
+  position: relative;
+  display: flex;
+  width: 150px;
+  height: 150px;
+  border-style: double;
+  background-color: black;
+}
+
+.box7 {
+  position: relative;
+  display: flex;
+  width: 150px;
+  height: 150px;
+  border-style: double;
+  background-color: black;
+}
+
+.box8 {
+  position: relative;
+  display: flex;
+  width: 150px;
+  height: 150px;
+  border-style: double;
+  background-color: black;
+}
+
+.box9 {
+  position: relative;
+  display: flex;
+  width: 150px;
+  height: 150px;
+  border-style: double;
+  background-color: black;
+}
+
+.box10 {
+  position: relative;
+  display: flex;
+  width: 150px;
+  height: 150px;
+  border-style: double;
+  background-color: black;
+}
