@@ -21,14 +21,39 @@
 
 
 <body>
-  <div class="buttons-container">
-    <button class="catégorie">Catégories</button>
+  <div class="button-container">
+    <div class="dropdown">
+      <button class="dropbtn" id="categories">Catégories</button>
+      <div class="dropdown-content">
+        <a href="#">Burger</a>
+        <a href="#">Pizza</a>
+        <a href="#">Chinois</a>
+        <a href="#">Japonais</a>
+        <a href="#">Thaï</a>
+        <a href="#">Français</a>
+      </div>
+    </div>
     <hr class="separator">
-    <button class="régime">Régime alimentaire</button>
+
+    <div class="dropdown">
+      <button class="dropbtn">Régime alimentaire</button>
+      <div class="dropdown-content">
+        <a href="#">Vegan</a>
+        <a href="#">Halal</a>
+        <a href="#">Sans gluten</a>
+      </div>
+    </div>
     <hr class="separator">
-    <button class="trier">Trier par</button>
+
+    <div class="dropdown">
+      <button class="dropbtn">Trier par</button>
+      <div class="dropdown-content">
+        <a href="#">Note</a>
+      </div>
+    </div>
     <hr class="separator">
-    <button class="validate">Valider</button>
+
+    <button class="dropbtn" id="validate">Valider</button>
   </div>
   <div class="recommandations-container">
     <h2>Nos recommandations</h2>
