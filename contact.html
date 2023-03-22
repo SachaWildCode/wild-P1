@@ -10,48 +10,42 @@
 </head>
 
 <header>
-    <nav>
-        <h1 classe="first"><a href="index.html">The SPOON </a></h1>
-        <div class="menu">
-            
-            <img class="logo" src="ressources/logosansfond.png" alt="logo" />
-            
-        </div>
-    </nav>
+    <nav> the Spoon</nav>
 </header>
 
 <body>
  
-
-  <form>
-    
-    <div>
+    <form>
+      
+      <div class="soutien">
         <h2 class="us">Contactez-nous</h2>
-    </div>
-    <div class="contact">
-    <div>
-      <label for="nom">Nom :</label>
-      <input type="text" id="nom" placeholder="Paire" />
-    </div>
-
-    <div>
+        <p class="">
+          Afin d'améliorer notre site <br />et pour mieux vous servir.
+          <br />N'hésitez pas à nous faire part de vos suggestions, <br />en
+          remplissant le formulaire.
+        </p>
+      </div>
+      <div class="contact">
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" placeholder="Paire" />
         <label for="prenom">Prénom :</label>
-        <input type="text" id="prenom"placeholder ="Julien" required/>
-    </div>
-
-    <div>
-      <label for="email">Email :</label>
-      <input type="email" id="email" value="" placeholder="julien.paire@gmail.com"/>
-    </div>
-
-    <div>
-      <label for="message">Message : </label>
-      <textarea id="message" rows="10" placeholder="Écrivez votre message ..." ></textarea>
-    </div>
-
-     <button class="send">Envoyer</button> 
-    </div>
-    
+        <input type="text" id="prenom" placeholder="Julien" required />
+        <label id="email" for="email">Email :</label>
+        <input
+          type="email"
+          id="email"
+          value=""
+          placeholder="julien.paire@gmail.com"
+        />
+        <label for="message">Message : </label>
+        <textarea
+          id="message"
+          rows="10"
+          placeholder="Écrivez votre message ..."
+        ></textarea>
+        <button class="send">Envoyer</button>
+      </div>
+    </form>
   
     </form>
     <script src = "script.js"></script>
