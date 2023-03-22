@@ -74,3 +74,10 @@ function loadmenu(type) {
 window.onload = () => {
   validatemenu();
 };
+/* Make default on all for carousel
+ fix footer
+ fix responsive
+ check if pixel on portfolio
+ add function for sorting by rating
+ add icons 
+ */

@@ -249,7 +249,7 @@ nav {
   display: flex;
   flex-flow: row nowrap;
   font-weight: bolder;
-  justify-content: space-between;
+  justify-content: flex-start;
   background-color: var(--third-color);
   color: var(--first-color);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
@@ -262,9 +262,10 @@ nav {
   padding-bottom: 15px;
   height: 80px;
 }
-nav span {
-  font-size: calc(1rem + 1vw);
-  margin: 0px auto;
+nav a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: var(--first-color);
 }
 footer {
   margin-bottom: -21px;
