@@ -28,7 +28,7 @@ body{
 }
 
 .contact{
-    
+    background-color:;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -38,17 +38,18 @@ body{
     border: 1px solid;
     font-size: 20px;
     margin-top: 30px;
-    margin-left: 40px;
-    
-        
-      
+    margin-left: 40px;     
+}
+label {
+    margin: 15px;
+    background-color:
 }
 #prenom, #nom, #email{
 
     height: 30px;
     width: 80%;
     text-align: center;
-    margin: 10px;
+    
    
 
 }
@@ -59,7 +60,7 @@ body{
 #message{
     width: 80%;
     text-align: center;
-    
+    resize: none;
     margin-top: 10px;
 }
 button{
@@ -69,6 +70,8 @@ button{
     border-radius: 5px;
     background-color: white;
     
+    cursor: pointer;
+    
 }
 .soutien .us {
     
@@ -76,7 +79,7 @@ button{
     margin-bottom: 100px;
 }
 .soutien{
-    
+   
     margin-left: 100px;
     font-size: 25px; 
     padding-left: 10px; 
@@ -88,6 +91,10 @@ button{
 
     
 }
+textarea::placeholder{
+    padding-top: 10px;
+    
+}
 form{
     
     display: flex;
@@ -95,3 +102,38 @@ form{
     justify-content:flex-start;
     
 }
+@media screen and (max-width: 800px) {
+    form{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+
+      }
+      .soutien{
+        width: auto;
+        margin: auto;
+        flex-direction: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .soutien .us {
+        margin-bottom: 30px;
+      }
+      .avis{
+        margin-bottom: 20px;
+        font-size: 20px;
+        text-align: center;
+        
+      }
+     .contact{
+        margin: 0;
+        width: 100%;
+        border:none;
+        
+     }
+     
+    }
+  
+  
