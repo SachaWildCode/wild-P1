@@ -1,3 +1,0 @@
-ajouter effet qui change police et bg inversé boutons texte contactez nous
-
-ajoute image flou quand on survole dessus puis texte ecrit seldtion de the spoon par ex
