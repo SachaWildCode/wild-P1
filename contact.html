@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css" />
+  <script src="scripts/contact.js"></script>
   <title>The Spoon</title>
 </head>
 
@@ -20,32 +21,28 @@
 <body>
 
   <form>
-    <div class="contacttitle">
-      <h2>Contactez-nous</h2>
+
+    <div class="soutien">
+      <h2 class="us">Contactez-nous</h2>
+      <p class="avis">
+        Afin d'améliorer notre site <br />et pour mieux vous servir.
+        <br />N'hésitez pas à nous faire part de vos suggestions, <br />en
+        remplissant le formulaire.
+      </p>
     </div>
     <div class="contact">
-      <div>
-        <label for="nom">Nom :</label>
-        <input type="text" id="nom" />
-      </div>
-
-      <div>
-        <label for="prenom">Prénom :</label>
-        <input type="text" id="prenom" />
-      </div>
-
-      <div>
-        <label for="email">Email :</label>
-        <input type="email" id="email" value="" />
-      </div>
-
-      <div>
-        <label for="message">Message : </label>
-        <textarea id="message" rows="10"></textarea>
-      </div>
-
-      <button class="submit" type="submit">Envoyer</button>
+      <label for="nom">Nom :</label>
+      <input type="text" id="nom" placeholder="Paire" required />
+      <label for="prenom">Prénom :</label>
+      <input type="text" id="prenom" placeholder="Julien" required />
+      <label id="email" for="email">Email :</label>
+      <input type="email" id="email" value="" placeholder="julien.paire@gmail.com" required />
+      <label for="message">Message : </label>
+      <textarea id="message" rows="10" placeholder="Écrivez votre message ..." required></textarea>
+      <button class="send">Envoyer</button>
     </div>
+  </form>
+
   </form>
 </body>
 
@@ -63,5 +60,7 @@
     <a><img src="https://zupimages.net/up/23/11/xhxv.png" width="20"> </a>
   </div>
 </footer>
+
+
 
 </html>
