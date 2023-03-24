@@ -13,7 +13,6 @@
   font-family: "Source Sans Pro", sans-serif;
 }
 body {
-  display: flex;
   flex-flow: column nowrap;
   align-items: center;
   justify-content: center;
@@ -322,9 +321,11 @@ footer {
   margin-right: 1rem;
   border-color: var(--fourth-color);
 }
+
+/*About Us
+*/
 #page-about-us {
-  background-image: url("../assets/background.jpg");
-  height: 65vh;
+  background-image: url("../resources/background.jpg");
   background-size: cover;
   background-position: center;
   box-shadow: rgba(0, 0, 0, 0.44) 0px 7px 8px 0px;
@@ -338,7 +339,9 @@ a:visited {
 }
 
 a:hover {
-  color: brown; /*défini la couleur du lien lorsque l'on survole dessus*/
+  color: var(
+    --fourth-color
+  ); /*défini la couleur du lien lorsque l'on survole dessus*/
 }
 
 .about-us {
@@ -350,7 +353,6 @@ a:hover {
 .title-about-us {
   font-size: 80px;
   color: white;
-  background: rgba(0, 0, 0, 0.43);
   padding-top: 50px;
   padding-bottom: 50px;
   padding-left: 60px;
