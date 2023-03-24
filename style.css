@@ -322,3 +322,139 @@ footer {
   margin-right: 1rem;
   border-color: var(--fourth-color);
 }
+#page-about-us {
+  background-image: url("../assets/background.jpg");
+  height: 65vh;
+  background-size: cover;
+  background-position: center;
+  box-shadow: rgba(0, 0, 0, 0.44) 0px 7px 8px 0px;
+}
+
+a:link,
+a:visited {
+  /*je mets le texte cliquable*/
+  text-decoration: none; /*retire le surlignement sous le lien*/
+  color: white; /*défini la couleur du lien une fois cliqué dessus*/
+}
+
+a:hover {
+  color: brown; /*défini la couleur du lien lorsque l'on survole dessus*/
+}
+
+.about-us {
+  position: absolute; /*met le fond de la même largeur que le texte*/
+  top: 32%;
+  transform: translateX(68%) translateY(-50%); /*change texte de place*/
+}
+
+.title-about-us {
+  font-size: 80px;
+  color: white;
+  background: rgba(0, 0, 0, 0.43);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border: thick double white;
+}
+
+/**********Titre about us**********/
+
+.titre-about-us {
+  font-size: 22px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.281);
+  box-shadow: rgba(0, 0, 0, 0.44) 0px 7px 8px 0px;
+  position: absolute;
+  margin-left: 100px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 2%;
+}
+
+/**********Paragraphe about us**********/
+
+.paragraph-about-us {
+  font-size: 20px;
+  color: black;
+  letter-spacing: 0.1em;
+  padding-left: 100px;
+  margin-top: 15%;
+}
+
+.text-bio {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 3%;
+  margin-top: 2%;
+}
+
+.img-bio {
+  margin-top: 2%;
+  box-shadow: rgba(0, 0, 0, 0.44) 0px 7px 8px 0px;
+}
+
+/**********Titre contact**********/
+
+.title-contact {
+  font-size: 22px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.281);
+  box-shadow: rgba(0, 0, 0, 0.44) 0px 7px 8px 0px;
+  position: absolute;
+  margin-left: 9px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 3.8%;
+}
+
+/**********Paragraphe contact**********/
+
+.text-contact {
+  font-size: 20px;
+  color: black;
+  letter-spacing: 0.1em;
+  margin-top: 19%;
+  margin-right: -1.5%;
+}
+
+.bio-contact {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  padding-left: 3%;
+  padding-right: 130px;
+  margin-top: 1%;
+}
+
+.img-contact {
+  margin-top: 4.1%;
+  margin-left: 4%;
+  box-shadow: rgba(0, 0, 0, 0.44) 0px 7px 8px 0px;
+}
+
+/**********Bouton contact**********/
+.button-contact {
+  font-size: 13px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.281);
+  box-shadow: rgba(0, 0, 0, 0.44) 0px 7px 8px 0px;
+  position: absolute;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 24.3%;
+  margin-right: 10%;
+}
+
+.img-contact:hover,
+.img-bio:hover {
+  /*Modifications lors du survol de souris*/
+  animation: opac 2s; /*Ajoute texte sur image*/
+  transform: scale(1.05); /* Ajoute zoom sur image */
+}
